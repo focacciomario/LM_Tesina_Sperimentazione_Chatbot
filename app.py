@@ -2,9 +2,10 @@
 import openai
 from PIL import Image
 import streamlit as st
-#openai.api_key = "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"
+
+openai.api_key = "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"
 #openai.api_key = os.environ.get('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')
-openai.api_key = st.secrets[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]
+#openai.api_key = st.secrets[]
 
 st.set_page_config(
     page_title="ChatGPT + DALL-E 2",
