@@ -1,4 +1,4 @@
-#import os
+import os
 import openai
 from PIL import Image
 import streamlit as st
@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-#@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
+@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
 def openai_completion(prompt):
     response = openai.Completion.create(
       model="text-davinci-003",
@@ -24,7 +24,7 @@ def openai_completion(prompt):
     )
     return response['choices'][0]['text']
 
-#@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
+@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
 def openai_image(prompt):
     response = openai.Image.create(
       prompt=prompt,
