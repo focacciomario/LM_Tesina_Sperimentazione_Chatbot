@@ -1,10 +1,10 @@
 # ✨ Streamlit based ChatGPT/DALLE-2 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Mario-Focaccio-dkgreen.svg?colorB=ff0000)](https://github.com/focacciomario/LM_Tesina_Sperimentazione_Chatbot)
 
-Una semplice webapp sviluppata utilizzando Streamlit e integrata con le APIs di OpenAI per la generazione di immagini e testi a partire da descrizioni testuali. 
+Una semplice webapp sviluppata utilizzando Streamlit e integrata con le APIs di OpenAI per la generazione di immagini (DALL-E) e testi (GPT-3), entrambi a partire da descrizioni testuali anche complesse. 
 
 ![demo_txt](https://github.com/focacciomario/LM_Tesina_Sperimentazione_Chatbot/blob/main/static/screen_recording.gif)
 
-![demo_img](https://user-images.githubusercontent.com/29462447/212479452-3d59ed7b-cbc3-43f1-bdb9-5e9d3b37dadc.gif)
+
 
 ## Installazione:
 * Dal terminale eseguire il comando ***pip install -r requirements.txt*** per installare i pacchetti e le dipendenze descritte nel file *requirements.txt* 
