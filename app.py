@@ -1,9 +1,10 @@
-import os
+#import os
 import openai
 from PIL import Image
 import streamlit as st
 #openai.api_key = "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"
-openai.api_key = os.environ.get('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')
+#openai.api_key = os.environ.get('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')
+openai.api_key = st.secrets["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"]
 
 st.set_page_config(
     page_title="ChatGPT + DALL-E 2",
@@ -12,7 +13,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
+#@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
 def openai_completion(prompt):
     response = openai.Completion.create(
       model="text-davinci-003",
@@ -22,7 +23,7 @@ def openai_completion(prompt):
     )
     return response['choices'][0]['text']
 
-@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
+#@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
 def openai_image(prompt):
     response = openai.Image.create(
       prompt=prompt,
