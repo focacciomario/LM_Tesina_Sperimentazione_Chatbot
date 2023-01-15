@@ -1,4 +1,4 @@
-# ✨ Streamlit based ChatGPT/DALLE-2 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Mario-Focaccio.svg?colorB=ff0000)](https://github.com/focacciomario/LM_Tesina_Sperimentazione_Chatbot)
+# ✨ Streamlit based ChatGPT/DALLE-2 [![Project Status: Active](https://www.repostatus.org/badges/latest/active.svg)](https://www.repostatus.org/#active) [![](https://img.shields.io/badge/Mario-Focaccio-dkgreen.svg?colorB=ff0000)](https://github.com/focacciomario/LM_Tesina_Sperimentazione_Chatbot)
 Una semplice webapp sviluppata utilizzando Streamlit e integrata con le APIs di OpenAI 
 A simple streamlit based webapp using OpenAI APIs empowered with text generation and image generation functionalities
 
