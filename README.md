@@ -2,7 +2,7 @@
 
 Una semplice webapp sviluppata utilizzando Streamlit e integrata con le APIs di OpenAI per la generazione di immagini e testi a partire da descrizioni testuali. 
 
-![demo_txt](https://user-images.githubusercontent.com/29462447/212479457-f3a11c26-f889-4f33-9569-ea154c95f091.gif)
+![demo_txt](https://github.com/focacciomario/LM_Tesina_Sperimentazione_Chatbot/blob/main/static/screen_recording.gif)
 
 ![demo_img](https://user-images.githubusercontent.com/29462447/212479452-3d59ed7b-cbc3-43f1-bdb9-5e9d3b37dadc.gif)
 
