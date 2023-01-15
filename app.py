@@ -14,7 +14,7 @@ st.set_page_config(
     initial_sidebar_state="auto",
 )
 
-@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
+#@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=False)
 def openai_completion(prompt):
     response = openai.Completion.create(
       model="text-davinci-003",
@@ -24,11 +24,11 @@ def openai_completion(prompt):
     )
     return response['choices'][0]['text']
 
-@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=True)
+#@st.cache(persist=True,allow_output_mutation=True,show_spinner=False,suppress_st_warning=False)
 def openai_image(prompt):
     response = openai.Image.create(
       prompt=prompt,
-      n=1,
+      n=2,
       size="256x256"
     )
     image_url = response['data'][0]['url']
