@@ -2,7 +2,7 @@ import os
 import openai
 from PIL import Image
 import streamlit as st
-openai.api_key = os.environ.get('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')
+openai.api_key = os.environ.get(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)
 
 st.set_page_config(
     page_title="ChatGPT + DALL-E 2",
