@@ -20,8 +20,5 @@ streamlit run app.py
 3. Naviga nel tuo browser all'indirizzo http://localhost:8501
 
 
-## Risultato:
+## Il risultato finale sarà simile all'immagine visualizzata sopra
 
-![1](https://user-images.githubusercontent.com/29462447/212479438-b2774381-122c-40b3-8380-5a7fa1336483.png)
-
-![2](https://user-images.githubusercontent.com/29462447/212479439-6e6ce078-e61b-4430-9eba-0931b1b199d5.png)
