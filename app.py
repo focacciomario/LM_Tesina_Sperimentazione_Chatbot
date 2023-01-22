@@ -43,7 +43,7 @@ format_type = st.sidebar.selectbox('Quale engine vuoi utilizzare? 😉',["ChatGP
 st.sidebar.image(bottom_image,use_column_width='auto')
 
 st.image(main_image,use_column_width='auto')
-st.title("📄 Tesina LM Mario Focaccio:<br/> ChatBot: Sperimentazione ")
+st.title("📄 Tesina LM Mario Focaccio: <br /> ChatBot: Sperimentazione ")
 
 if format_type == "ChatGPT":
     input_text = st.text_area("Inserisci una descrizione testuale... 🙋",height=50)
