@@ -1,4 +1,4 @@
-import os
+#import os
 import openai
 from PIL import Image
 import streamlit as st
