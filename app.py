@@ -45,7 +45,7 @@ st.sidebar.image(bottom_image,use_column_width='auto')
 st.image(main_image,use_column_width='auto')
 st.title("📄 :green[Mario Focaccio] - _ChatBot: Sperimentazione_ ")
 
-if format_type == "ChatGPT":
+if format_type == "ChatGPT (Testo)":
     input_text = st.text_area("Inserisci una descrizione testuale... 🙋",height=50)
     chat_button = st.button("Dammi una risposta ✨")
 
