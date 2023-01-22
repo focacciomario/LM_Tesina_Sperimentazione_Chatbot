@@ -67,7 +67,7 @@ else:
     else:
         st.warning("Inserisci una descrizione! ⚠")
 
-st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:mario.focaccio@studenti.unicz.it?subject=ChatGPT DALL-E WebApp!&body=Specifica di seguito le problematiche riscontrate con l'uso dell'applicazione'><strong>Mario Focaccio</strong></a></center><hr>", unsafe_allow_html=True)
-st.markdown("<center>Università degli Studi Magna Graecia di Catanzaro — <strong>A.A. 2022 - 2023</strong></center>", unsafe_allow_html=True)
+st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:mario.focaccio@studenti.unicz.it'><strong>Mario Focaccio</strong></a></center><hr>", unsafe_allow_html=True)
+st.markdown("<center><a href='https://medicina.unicz.it'>Università degli Studi Magna Graecia di Catanzaro</a> — <strong>A.A. 2022 - 2023</strong></center>", unsafe_allow_html=True)
 st.markdown("<style> footer {visibility: hidden;} </style>", unsafe_allow_html=True)
 
