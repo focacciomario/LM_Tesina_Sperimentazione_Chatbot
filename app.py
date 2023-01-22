@@ -8,7 +8,7 @@ openai.api_key = "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"
 #openai.api_key = st.secrets[]
 
 st.set_page_config(
-    page_title="ChatGPT + DALL-E 2",
+    page_title="Tesina LM Mario Focaccio",
     page_icon="✨",
     layout="centered",
     initial_sidebar_state="auto",
@@ -39,7 +39,7 @@ bottom_image = Image.open('static/banner_bottom.png')
 main_image = Image.open('static/main_banner.png')
 
 st.sidebar.image(top_image,use_column_width='auto')
-format_type = st.sidebar.selectbox('Cosa vuoi chiedermi? 😉',["ChatGPT","DALL-E 2"])
+format_type = st.sidebar.selectbox('Quale engine vuoi utilizzare? 😉',["ChatGPT (Testo)","DALL-E 2 (Immagini)"])
 st.sidebar.image(bottom_image,use_column_width='auto')
 
 st.image(main_image,use_column_width='auto')
@@ -67,5 +67,5 @@ else:
     else:
         st.warning("Inserisci una descrizione! ⚠")
 
-st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:mario.focaccio@studenti.unicz.it?subject=ChatGPT + DALL-E WebApp!&body=Please specify the issue you are facing with the app.'><strong>Mario Focaccio</strong></a></center><hr>", unsafe_allow_html=True)
+st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:mario.focaccio@studenti.unicz.it?subject=ChatGPT-DALL-E-WebApp!&body=Specifica di seguito le problematiche riscontrate con l'uso dell'applicazione'><strong>Mario Focaccio</strong></a></center><hr>", unsafe_allow_html=True)
 st.markdown("<style> footer {visibility: hidden;} </style>", unsafe_allow_html=True)
