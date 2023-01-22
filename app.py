@@ -43,7 +43,7 @@ format_type = st.sidebar.selectbox('Quale engine vuoi utilizzare? 😉',["ChatGP
 st.sidebar.image(bottom_image,use_column_width='auto')
 
 st.image(main_image,use_column_width='auto')
-st.title("📄 ChatGPT + DALL-E 🏜 Streamlit")
+st.title("📄 Tesina LM Mario Focaccio:<br/> ChatBot: Sperimentazione ")
 
 if format_type == "ChatGPT":
     input_text = st.text_area("Inserisci una descrizione testuale... 🙋",height=50)
@@ -67,5 +67,5 @@ else:
     else:
         st.warning("Inserisci una descrizione! ⚠")
 
-st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:mario.focaccio@studenti.unicz.it?subject=ChatGPT-DALL-E-WebApp!&body=Specifica di seguito le problematiche riscontrate con l'uso dell'applicazione'><strong>Mario Focaccio</strong></a></center><hr>", unsafe_allow_html=True)
+st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:mario.focaccio@studenti.unicz.it?subject=ChatGPT-DALL-E-WebApp!&body=Specifica di seguito le problematiche riscontrate con l'uso dell'applicazione'><strong>Mario Focaccio</strong></a> A.A. 2022 - 2023</center><hr>", unsafe_allow_html=True)
 st.markdown("<style> footer {visibility: hidden;} </style>", unsafe_allow_html=True)
