@@ -21,6 +21,6 @@ streamlit run app.py
 
 
 ## Il risultato finale può essere visualizzato in questi due link: 
-[OnRender](https://streamlit-gpt3-walle-chatbot.onrender.com/) - Web App Deploy Free using OnRender
-[Streamlit](https://focacciomario-lm-tesina-sperimentazione-chatbot-app-70f0r2.streamlit.app/) - Web App Deploy Free using Streamlit
+1. [OnRender](https://streamlit-gpt3-walle-chatbot.onrender.com/) - Web App Deploy Free using OnRender
+2. [Streamlit](https://focacciomario-lm-tesina-sperimentazione-chatbot-app-70f0r2.streamlit.app/) - Web App Deploy Free using Streamlit
 
