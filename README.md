@@ -20,5 +20,7 @@ streamlit run app.py
 3. Naviga nel tuo browser all'indirizzo http://localhost:8501
 
 
-## Il risultato finale sarà simile all'immagine visualizzata sopra
+## Il risultato finale può essere visualizzato in questi due link: 
+[OnRender](https://streamlit-gpt3-walle-chatbot.onrender.com/) - Web App Deploy Free using OnRender
+[Streamlit](https://focacciomario-lm-tesina-sperimentazione-chatbot-app-70f0r2.streamlit.app/) - Web App Deploy Free using Streamlit
 
