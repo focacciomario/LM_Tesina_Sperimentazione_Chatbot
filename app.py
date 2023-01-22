@@ -68,6 +68,6 @@ else:
         st.warning("Inserisci una descrizione! ⚠")
 
 st.markdown("<br><hr><center>Made with ❤️ by <a href='mailto:mario.focaccio@studenti.unicz.it'><strong>Mario Focaccio</strong></a></center><hr>", unsafe_allow_html=True)
-st.markdown("<center><a href='https://medicina.unicz.it' style='color:White;'>Università degli Studi Magna Graecia di Catanzaro</a> — <strong>A.A. 2022 - 2023</strong></center>", unsafe_allow_html=True)
+st.markdown("<center><a href='https://medicina.unicz.it' style='color:White;text-decoration:none;font-weight:800;'>Università degli Studi Magna Graecia di Catanzaro</a> — <strong>A.A. 2022 - 2023</strong></center>", unsafe_allow_html=True)
 st.markdown("<style> footer {visibility: hidden;} </style>", unsafe_allow_html=True)
 
