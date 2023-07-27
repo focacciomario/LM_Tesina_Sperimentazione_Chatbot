@@ -2,7 +2,7 @@ import openai
 from PIL import Image
 import streamlit as st
 
-openai.api_key = "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"
+openai.api_key = "YOUR-OPENAI-KEY"
 
 st.set_page_config(
     page_title="Tesina LM Mario Focaccio",
