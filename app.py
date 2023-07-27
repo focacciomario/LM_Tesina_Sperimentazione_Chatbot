@@ -5,7 +5,7 @@ import streamlit as st
 openai.api_key = "YOUR-OPENAI-KEY"
 
 st.set_page_config(
-    page_title="Tesina LM Mario Focaccio",
+    page_title="LM Mario Focaccio",
     page_icon="✨",
     layout="centered",
     initial_sidebar_state="auto",
